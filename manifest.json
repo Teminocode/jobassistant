@@ -1,0 +1,59 @@
+{
+  "name": "Smart Job Assistant",
+  "short_name": "JobAssistant",
+  "description": "AI-powered job application helper for modern job seekers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "business"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%236366f1'/%3E%3Ctext y='50' x='50' text-anchor='middle' dy='0.35em' font-size='50' fill='white'%3E💼%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%236366f1'/%3E%3Ctext y='50' x='50' text-anchor='middle' dy='0.35em' font-size='50' fill='white'%3E💼%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Analyze Job",
+      "short_name": "Analyze",
+      "description": "Quickly analyze a job posting",
+      "url": "/?tab=detect",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%2310b981'/%3E%3Ctext y='50' x='50' text-anchor='middle' dy='0.35em' font-size='50' fill='white'%3E🔍%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Generate Content",
+      "short_name": "Generate",
+      "description": "Create resume content and cover letters",
+      "url": "/?tab=generate",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%238b5cf6'/%3E%3Ctext y='50' x='50' text-anchor='middle' dy='0.35em' font-size='50' fill='white'%3E✨%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Crect width='1200' height='800' fill='%23f8fafc'/%3E%3Ctext y='400' x='600' text-anchor='middle' dy='0.35em' font-size='48' fill='%236366f1'%3ESmart Job Assistant%3C/text%3E%3C/svg%3E",
+      "sizes": "1200x800",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Smart Job Assistant main interface"
+    }
+  ]
+}
